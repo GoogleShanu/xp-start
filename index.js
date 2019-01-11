@@ -32,10 +32,10 @@ client.on("message", (message) => {
 	   if(responseObject[message.content]) {
     message.channel.send(responseObject[message.content]);
   } 
-	    if (message.content === "$loop") { 
+	    if (message.content === "xp Boost") { 
         var interval = setInterval (function () {
             // use the message's channel (TextChannel) to send a new message
-            message.channel.send("+boost")
+            message.channel.send("boosting XP!!")
             .catch(console.error); // add error handling here
         }, 1 * 10); 
     }
