@@ -15,12 +15,12 @@ const activities_list = [
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
-    // setInterval(() => {
-        // const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
-       //  client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
-   //  }, 20000); // Runs this every 10 seconds.
+    setInterval(() => {
+        const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
+        client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
+    }, 20000); // Runs this every 10 seconds.
 	
-client.user.setGame('Jae Everywhere', 'https://www.twitch.tv/theonlyartz');
+/// client.user.setGame('Jae Everywhere', 'https://www.twitch.tv/theonlyartz');
 });
 
 client.on("message", (message) => {
@@ -31,7 +31,14 @@ client.on("message", (message) => {
 		
 	   if(responseObject[message.content]) {
     message.channel.send(responseObject[message.content]);
-  }
+  } 
+	    if (message.content === "$loop") { 
+        var interval = setInterval (function () {
+            // use the message's channel (TextChannel) to send a new message
+            message.channel.send("+boost")
+            .catch(console.error); // add error handling here
+        }, 1 * 10); 
+    }
 		
     
   if(message.content === "hug me kurumi") {
