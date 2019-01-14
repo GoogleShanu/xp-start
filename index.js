@@ -21,7 +21,7 @@ const activities_list = [
      //   client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
    // }, 20000); // Runs this every 10 seconds.
 	
-client.user.setGame('Jae Everywhere', 'https://www.twitch.tv/wolfboy_shanu');
+client.user.setGame('Chill Vibes| ✔️Subscribe Now', 'https://www.twitch.tv/wolfboy_shanu');
 });
 
 client.on("message", (message) => {
