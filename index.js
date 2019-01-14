@@ -20,8 +20,8 @@ const activities_list = [
    //    const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
  //     client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
  //   }, 20000); // Runs this every 10 seconds.
-	client.user.setActivity({
-    type: "Chill Vibes | ✔️Subscribe Now",
+	client.user.setActivity("Chill Vibes | ✔️Subscribe Now"{
+    type: "STREAMING",
     url: "https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q"
 });
    //  client.user.setGame('Chill Vibes | ✔️Subscribe Now', 'https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q');
