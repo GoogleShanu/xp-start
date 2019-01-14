@@ -23,7 +23,7 @@ const activities_list = [
 // client.user.setActivity("Chill Vibes | ✔️Subscribe Now"{
 //     type: "STREAMING",
 //    url: "https://www.twitch.tv/blitzifyyy" 
-)};
+// )};
    client.user.setGame('Chill Vibes | ✔️Subscribe , 'https://www.twitch.tv/blitzifyyy');
 });
 
