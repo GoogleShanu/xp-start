@@ -22,8 +22,8 @@ const activities_list = [
  //   }, 20000); // Runs this every 10 seconds.
 	client.user.setActivity("Chill Vibes | ✔️Subscribe Now"{
     type: "STREAMING",
-    url: "https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q"
-});
+    url: "https://www.twitch.tv/blitzifyyy" 
+)};
    //  client.user.setGame('Chill Vibes | ✔️Subscribe Now', 'https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q');
 });
 
