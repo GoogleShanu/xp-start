@@ -21,7 +21,7 @@ const activities_list = [
  //     client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
  //   }, 20000); // Runs this every 10 seconds.
 	
-   client.user.setGame('Chill Vibes | ✔️Subscribe Now', 'https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q, http://www.youtube.com/c/WolfBoyShanNightcoreknight');
+   client.user.setGame('Chill Vibes | ✔️Subscribe Now', 'https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q');
 });
 
 client.on("message", (message) => {
