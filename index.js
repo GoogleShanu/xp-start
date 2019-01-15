@@ -24,7 +24,7 @@ const activities_list = [
 //     type: "STREAMING",
 //    url: "https://www.twitch.tv/blitzifyyy" 
 // )};
-   client.user.setGame('Chill Vibes | ✔️Subscribe' , 'https://www.twitch.tv/blitzifyyy');
+   client.user.setGame('Chill Vibes | ✔️Subscribe' , 'https://youtu.be/Lf60K2DovpM'); // https://www.twitch.tv/blitzifyyy
 		       // client.user.setGame('Chill Vibes | ✔️Subscribe Now', 'https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q')
 });
 
