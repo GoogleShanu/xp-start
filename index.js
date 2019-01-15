@@ -22,7 +22,7 @@ const activities_list = [
  //   }, 20000); // Runs this every 10 seconds.
  client.user.setActivity("Chill Vibes |Kyoko - Cold Life"{
     type: "LISTENING",
-    url: "https://youtu.be/Lf60K2DovpM" 
+    url: "https://www.spotify.com" 
 // )};
   // client.user.setGame('Chill Vibes | ✔️Subscribe' , 'https://youtu.be/Lf60K2DovpM'); // https://www.twitch.tv/blitzifyyy
 		       // client.user.setGame('Chill Vibes | ✔️Subscribe Now', 'https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q')
