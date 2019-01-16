@@ -24,7 +24,7 @@ const activities_list = [
     // type: "LISTENING",
     // url: "https://www.spotify.com" 
 // )};
-   client.user.setGame('Chill Vibes |✔️Kyoko - Cold Life' , 'https://youtu.be/Lf60K2DovpM'); // https://www.twitch.tv/blitzifyyy
+   client.user.setGame('Chill Vibes |✔️Marin Hoxha x Annie Sollange - Falling For You [Lyrics]' , 'https://youtu.be/RfIx0GPKZZQ'); // https://www.twitch.tv/blitzifyyy
 		       // client.user.setGame('Chill Vibes | ✔️Subscribe Now', 'https://www.youtube.com/channel/UCXO_N-qdU9F4SqI8J4s_43Q')
 });
 
