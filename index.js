@@ -40,7 +40,7 @@ client.on("message", (message) => {
   } 
 	    if (message.content === "xp Boost") { 
         var interval = setInterval (function () {
-             use the message's channel (TextChannel) to send a new message
+            // use the message's channel (TextChannel) to send a new message
           message.channel.send("boosting XP!!")
            .catch(console.error); // add error handling here
        }, 1 * 2000); 
