@@ -16,5 +16,8 @@
   "daily": ".daily",
   "mine": ".mine",
   "loot": ".loot",
-  "salvage": ".salvage"
+  "salvage": ".salvage",
+  "spam1": "spam2",
+  "spam2": "spam1"
+
 }
