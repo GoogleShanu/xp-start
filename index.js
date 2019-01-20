@@ -38,7 +38,7 @@ client.on("message", (message) => {
 	   if(responseObject[message.content]) {
     message.channel.send(responseObject[message.content]);
   } 
-	if (message.content === "xp Boost") { 
+	if (message.content === "Boost") { 
         var interval = setInterval (function () {
             // use the message's channel (TextChannel) to send a new message
           message.channel.send("boosting XP!!")
