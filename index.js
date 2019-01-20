@@ -4,14 +4,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const responseObject = require("./rep.json");
 const activities_list = [
-    "with Karma🔥| ❄Yukimura",
-    "with my friends here",
-    "With My SkyLine",
-    "with My Frosty",
-    "with Errors of my life",
-    "With My Lil PuP",
-    "With My Kyoko",
-    "With My Patrol"
+    "With Senpai",
+    "With Natsuki"
 	
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
