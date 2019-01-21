@@ -35,7 +35,7 @@ client.on("message", (message) => {
 	if (message.content === "Boost") { 
         var interval = setInterval (function () {
             // use the message's channel (TextChannel) to send a new message
-          message.channel.send("boosting XP!!")
+          message.channel.send("BOOSTING XP 100%!")
            .catch(console.error); // add error handling here
        }, 2 * 1000); 
    }
@@ -46,4 +46,4 @@ client.on("message", (message) => {
   }
 });
  
-client.login(process.env.TOKEN);
+client.login(process.env.Estt);
