@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const responseObject = require("./rep.json");
 const activities_list = [
-    "With Senpai",
+    "With You ♥",
     "With Natsuki"
 	
     ]; // creates an arraylist containing phrases you want your bot to switch through.
@@ -37,7 +37,7 @@ client.on("message", (message) => {
             // use the message's channel (TextChannel) to send a new message
           message.channel.send("boosting XP!!")
            .catch(console.error); // add error handling here
-       }, 1 * 800); 
+       }, 2 * 1000); 
    }
 		
     
